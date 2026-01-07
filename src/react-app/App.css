@@ -41,7 +41,7 @@
 }
 
 .read-the-docs {
-	position: fixed;
+	position: static;
 	right: 0;
 	left: 0;
 	bottom:0;

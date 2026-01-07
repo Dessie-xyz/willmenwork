@@ -1,8 +1,10 @@
-// src/Components/Header.jsx
+import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import NotImplemented, {NotImplHandle} from "./NotImplemented.tsx";
 
-import { Link } from "react-router-dom";
-
-const Header = () => {
+const Home = () => {
+  const navFren = useNavigate();
+  const notImplRef = useRef<NotImplHandle>(null);
   return (
     <div>
       <div style={{ textAlign: "center" }}>
@@ -11,13 +13,17 @@ const Header = () => {
         <nav>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li>
-                <Link to="/about">About us</Link>
+              <button onClick={() => navFren("/about")}>About Us</button>
+            </li>
+            <li>
+              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Contribute!</button>
             </li>
           </ul>
+          <NotImplemented ref={notImplRef} />
         </nav>
       </div>{" "}
     </div>
   );
 };
 
-export default Header;
+export default Home;
