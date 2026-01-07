@@ -1,26 +1,26 @@
 // src/App.tsx
 
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Home from "./pages/Home.tsx"
+import About from "./pages/About.tsx"
 
 function App() {
 
 	return (
 		<>
+			<div style={{backgroundColor:"GoldenRod", borderRadius:"10px", position:"fixed",top:"5px",right:"0px",left:"0px"}}>
+        	    <h1 style={{color:"black", padding:"5px"}}>This website is INDEV. Please check back later.</h1>
+        	</div>
 			<div>
+				<Routes>
+					<Route path="/" element={<Home/>}/>
+					<Route path="/about" element={<About />}/>
+				</Routes>
 			</div>
-			<h1>weaksubmissive.men</h1>
-			<h2>Home of the most weak, submissive, and pathetic men we could find.</h2>
-			<div className="card">
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
+			<div>
+				<p className="read-the-docs">Made by the Submissive and Breedable Foundation.</p>
 			</div>
-			<div className="card">
-				<p>
-					Edit <code>worker/index.ts</code> to change the name
-				</p>
-			</div>
-			<p className="read-the-docs">View our about page to learn more.</p>
 		</>
 	);
 }
