@@ -16,7 +16,7 @@ const Home = () => {
               <button onClick={() => notImplRef.current?.showNotImplDialog()}>Browse (TODO)</button>
             </li>
             <li>
-              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Collections (TODO)</button>
+              <button onClick={() => navFren("/collections")}>Collections</button>
             </li>
             <li>
               <button onClick={() => navFren("/about")}>About Us</button>

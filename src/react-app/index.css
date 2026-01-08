@@ -57,7 +57,7 @@ button:focus-visible {
 dialog {
 	&::backdrop{
 		background: #2135479c;
-		backdrop-filter: blur(3px);
+		backdrop-filter: blur(10px);
 	}
 }
 

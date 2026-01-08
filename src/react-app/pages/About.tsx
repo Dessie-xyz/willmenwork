@@ -13,13 +13,6 @@ const Header = () => {
         <br />Red</p><br/>
         <h2>Our Mission</h2>
         <p style={{paddingLeft:"7.5%", paddingRight:"7.5%"}}>Weak Submisive Men is comitted to organizing high-quality content dipicting submissive men into an easily searchable database. Through comunity outreach and innovation, Weak Submissive Men aims to be the Internet's foremost hub for finding high-quality submissive man content.</p><br/><hr/>
-        <nav>
-          <ul style={{ listStyleType: "none", padding: 0 }}>
-            <li>
-              <Link to="/">View Homepage</Link>
-            </li>
-          </ul>
-        </nav>
       </div>{" "}
     </div>
   );
