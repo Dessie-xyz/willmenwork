@@ -6,6 +6,7 @@ import Home from "./pages/Home.tsx"
 import About from "./pages/About.tsx"
 import NotFound from "./pages/NotFound.tsx"
 import Collections from "./pages/Collections.tsx"
+import Submit from "./pages/Submit.tsx"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/" element={<Home/>}/>
 					<Route path="/about" element={<About />}/>
 					<Route path="/collections" element={<Collections />}/>
+					<Route path="/submit" element={<Submit />}/>
 
 					{/*Fallback route*/}
 					<Route path="*" element={<NotFound />}/>
