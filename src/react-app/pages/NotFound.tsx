@@ -16,7 +16,7 @@ const Header = () => {
         </nav>
         <figure>
           <img src="https://c.tenor.com/lMpaVEufHsYAAAAd/tenor.gif" alt='An anthropomorphic cat character looking around in distress. The image is captioned "w-where are all the m-men?? i need men!"'/>
-          <figcaption><a href="https://tenor.com/view/boykisser-meme-gif-10721481181001359046">Image posted to Tenor.com by boykisser2.</a></figcaption>
+          <figcaption><a href="https://tenor.com/view/boykisser-meme-gif-10721481181001359046" referrerPolicy="no-referrer" target="_blank">Image posted to Tenor.com by boykisser2.</a></figcaption>
         </figure>
       </div>{" "}
     </div>

@@ -13,10 +13,16 @@ const Home = () => {
         <nav>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li>
+              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Browse (TODO)</button>
+            </li>
+            <li>
+              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Collections (TODO)</button>
+            </li>
+            <li>
               <button onClick={() => navFren("/about")}>About Us</button>
             </li>
             <li>
-              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Contribute!</button>
+              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Contribute! (TODO)</button>
             </li>
           </ul>
           <NotImplemented ref={notImplRef} />

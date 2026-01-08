@@ -13,7 +13,7 @@ function App() {
 			<div style={{backgroundColor:"GoldenRod", borderRadius:"20px", position:"fixed",top:"5px",right:"0px",left:"0px"}}>
         	    <h1 style={{color:"black", padding:"5px"}}>This website is INDEV. Please check back later.</h1>
         	</div>
-			<div style={{paddingTop:"75px", paddingBottom:"15px"}}>
+			<div style={{paddingTop:"90px", paddingBottom:"15px"}}>
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route path="/about" element={<About />}/>
