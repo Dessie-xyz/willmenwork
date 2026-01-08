@@ -23,7 +23,7 @@ const Header = forwardRef<NotImplHandle>((_, ref) => {
     <div>
       <dialog ref={notImplDialog} closedby="none">
         <h2>Not Implemented</h2>
-        <p>This feature is not yet implemented. Check back later once this section of the website has been completed</p>
+        <p>This feature is not yet implemented. Check back later once this section of the website has been completed.</p>
         <button onClick={hideNotImplDialog}>Dismiss</button>
       </dialog>
     </div>
