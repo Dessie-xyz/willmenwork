@@ -24,6 +24,9 @@ const Home = () => {
             <li>
               <button onClick={() => navFren("/submit")}>Contribute!</button>
             </li>
+            <li>
+              <button onClick={() => notImplRef.current?.showNotImplDialog()}>Blog (TODO)</button>
+            </li>
           </ul>
           <NotImplemented ref={notImplRef} />
         </nav>
