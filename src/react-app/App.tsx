@@ -12,10 +12,10 @@ function App() {
 
 	return (
 		<>
-			<div style={{borderRadius:"10px", position:"fixed",top:"5px",right:"0px",left:"15px"}}>
+			<div style={{borderRadius:"10px", position:"static",top:"5px",right:"0px",left:"15px", clear:"both"}}>
         	    <h1 style={{textAlign:"left"}}><Link to="/"><u><b>Weak Submissive Men</b></u></Link> (INDEV)</h1>
         	</div>
-			<div style={{paddingTop:"90px", paddingBottom:"15px"}}>
+			<div>
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route path="/about" element={<About />}/>
