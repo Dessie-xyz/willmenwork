@@ -48,3 +48,9 @@
 	text-align:center;
 	color: #888;
 }
+
+.ContentBrowser td{
+	border-width: 1px;
+	border-color:red;
+	border-style: solid;
+}
