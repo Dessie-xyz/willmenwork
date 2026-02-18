@@ -12,10 +12,12 @@ function App() {
 
 	return (
 		<>
-			<div style={{borderRadius:"10px", position:"fixed",top:"5px",right:"0px",left:"15px"}}>
-        	    <h1 style={{textAlign:"left"}}><Link to="/"><u><b>Weak Submissive Men</b></u></Link> (Development Delayed)</h1>
+			<div style={{borderRadius:"10px", position:"static",top:"5px",right:"0px",left:"15px"}}>
+        	    <h1 style={{textAlign:"left"}}><Link to="/"><u><b>Weak Submissive Men</b></u></Link></h1>
+				<h3>Notice: Initial development of this website has been temporarily paused.</h3>
+				<hr />
         	</div>
-			<div style={{paddingTop:"90px", paddingBottom:"15px"}}>
+			<div style={{paddingTop:"10px", paddingBottom:"15px"}}>
 				<Routes>
 					<Route path="/" element={<Home/>}/>
 					<Route path="/about" element={<About />}/>
