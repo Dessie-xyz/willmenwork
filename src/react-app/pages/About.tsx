@@ -12,7 +12,7 @@ const Header = () => {
         With much love,
         <br />Red</p><br/>
         <h2>Our Mission</h2>
-        <p style={{paddingLeft:"7.5%", paddingRight:"7.5%"}}>Weak Submisive Men is comitted to organizing high-quality content dipicting submissive men into an easily searchable database. Through comunity outreach and innovation, Weak Submissive Men aims to be the Internet's foremost hub for finding high-quality submissive man content.</p><br/><hr/>
+        <p style={{paddingLeft:"7.5%", paddingRight:"7.5%"}}>Weak Submissive Men is committed to organizing high-quality content depicting submissive men into an easily searchable database. Through community outreach and innovation, Weak Submissive Men aims to be the Internet's foremost hub for finding high-quality submissive man content.</p><br/><hr/>
       </div>{" "}
     </div>
   );
