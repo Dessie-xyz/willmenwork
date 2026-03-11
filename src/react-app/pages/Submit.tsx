@@ -13,7 +13,7 @@ const Submit = () => {
       </ol>
       <p>If all of the above are true, you may continue the process.</p>
       <h3>Email us at: <a href="mailto:submit@weaksubmissive.men" target="_blank">submit@weaksubmissive.men</a></h3>
-      <p>Please note, we partner with Desnetwork to handle emails. Responses from desnetwork.lol are legitimate.</p>
+      <p>Please note, we partner with Desnetwork to handle emails. Responses from dessieowo.com are legitimate.</p>
       <h3>Or Contact Our Socials!</h3>
       <ul>
         <li>TODO</li>
